@@ -381,7 +381,7 @@ input::placeholder {
     border: 2px solid rgb(255, 0, 0);
     max-width: 1000px;
     margin-right: 0%;
-    max-height: 600px;
+    max-height: 500px;
     overflow: auto;
     font-family: "Dosis";
     margin-right: 8%;
@@ -413,7 +413,7 @@ input::placeholder {
 
   #creadits {
     position: absolute;
-    top: 95%;
+    top: 97%;
     left: 40%;
     margin-top: 3px;
     font-family: monospace;
