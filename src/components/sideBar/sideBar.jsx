@@ -46,7 +46,7 @@ function SideBar() {
                 <div id="newChat" className='sideIcons'>
                     <img src={Images.chatBot1} id='chatBotImg'></img>
 
-                  {sideBarShow ?  <p >WHO AM I</p> :null }
+                  {sideBarShow ?  <a href='https://www.linkedin.com/in/savindu-abeywickrama-58a828311/'><p >WHO AM I</p></a> :null }
                 </div>
 
                 <div id='recSec' >
@@ -69,7 +69,7 @@ function SideBar() {
                                 <img src={Images.chatFolder}></img>
 
                                
-                                {sideBarShow ?    <p>What Is AlinaAI ? </p> :null }
+                                {sideBarShow ?    <a href='https://github.com/sanjulamax/Alina'><p>Who Is AlinaAI ? </p></a> :null }
                             </div>
                 </div>
 
@@ -79,14 +79,14 @@ function SideBar() {
                 <div id="help" className='sideIcons'>
                     <img src={Images.support}></img>
 
-                    {sideBarShow ?                        <p>Help</p> :null }
+                    {sideBarShow ?                      <a href='https://github.com/sanjulamax/Alina/issues' > <p>Help</p></a> :null }
 
 
                 </div>
 
                 <div id="about" className='sideIcons'>
                     <img src={Images.aboutUs}></img>
-                    {sideBarShow ?      <p>About</p> :null }
+                    {sideBarShow ?    <a href='https://www.linkedin.com/in/savindu-abeywickrama-58a828311/'>  <p>About</p></a> :null }
                   
                 </div>
 
