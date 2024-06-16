@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+#sideBar {
+  border: 2px solid rgb(0, 0, 0);
+  display: inline-flex;
+  flex-direction: column;
+  width: max-content;
+  height: 100vh;
+  box-shadow: 10px 10px 10px rgb(187, 187, 187);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  font-family: Outfit;
+  overflow: auto;
+}
+
+#undersec {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  top: 45%;
+}
+
+.sideIcons {
+  display: inline-flex;
+  border: none;
+  width: auto;
+  margin-bottom: 10px;
+  border: none;
+  align-items: center;
+  box-shadow: 3px 3px 3px rgb(203, 203, 203), -3px -3px 3px rgb(203, 203, 203);
+  border-radius: 10px;
+  padding-right: 5px;
+}
+
+.sideIcons img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border: none;
+}
+
+#recentInner {
+  display: inline-flex;
+}
+
+#recSec {
+  display: flex;
+  flex-direction: column;
+}
+
+#chatBotImg {
+  width: 40px;
+  margin-left: 0px;
+}
+
+#togleShower {
+  margin-bottom: 20px;
+}
+
+#prevCrd {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  overflow: auto;
+}
+
+#rec {
+  display: inline-flex;
+  flex-direction: column;
+  border: none;
+  height: 300px;
+  max-width: 200px;
+  overflow: auto;
+  box-shadow: 3px 3px 3px rgb(146, 146, 146), -3px -3px 3px rgb(146, 146, 146);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  #sideBar {
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-flex;
+    flex-direction: column;
+    width: max-content;
+    height: 97vh;
+    box-shadow: 10px 10px 10px rgb(187, 187, 187);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+    font-family: Outfit;
+    overflow: auto;
+    font-size: 10px;
+  }
+
+  #undersec {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    top: 60%;
+  }
+
+  .sideIcons {
+    display: inline-flex;
+    border: none;
+    width: auto;
+    margin-bottom: 10px;
+    border: none;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgb(203, 203, 203), -3px -3px 3px rgb(203, 203, 203);
+    border-radius: 10px;
+    padding-right: 5px;
+  }
+
+  .sideIcons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border: none;
+  }
+
+  #recentInner {
+    display: inline-flex;
+  }
+
+  #recSec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #chatBotImg {
+    width: 30px;
+    margin-left: 0px;
+  }
+
+  #togleShower {
+    margin-bottom: 20px;
+  }
+
+  #prevCrd {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: auto;
+  }
+
+  #rec {
+    display: inline-flex;
+    flex-direction: column;
+    border: none;
+    height: 200px;
+    overflow: auto;
+    max-width: 50px;
+    box-shadow: 3px 3px 3px rgb(146, 146, 146), -3px -3px 3px rgb(146, 146, 146);
+    margin-bottom: 10px;
+    padding: 5px;
+    white-space: pre-wrap; /* Allows wrapping of text inside <pre> */
+    word-wrap: break-word; /* Breaks long words to prevent overflow */
+  }
+}
