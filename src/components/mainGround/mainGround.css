@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
 *::-webkit-scrollbar {
   display: none;
+  text-decoration: none;
 }
 #mainGroundSec {
   border: 2px solid black;
@@ -160,6 +161,7 @@ input::placeholder {
   padding: 10px;
   border-radius: 20px;
   border: 2px solid rgb(0, 255, 0);
+  max-height: 50px;
 }
 
 #generated img {
@@ -412,7 +414,7 @@ input::placeholder {
   #creadits {
     position: absolute;
     top: 95%;
-    left: 25%;
+    left: 40%;
     margin-top: 3px;
     font-family: monospace;
     font-size: 10px;
@@ -425,6 +427,9 @@ input::placeholder {
   }
 
   .noImg {
+    display: none;
+  }
+  #cardSec {
     display: none;
   }
 }
