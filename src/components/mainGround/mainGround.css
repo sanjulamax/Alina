@@ -381,7 +381,7 @@ input::placeholder {
     border: 2px solid rgb(255, 0, 0);
     max-width: 1000px;
     margin-right: 0%;
-    max-height: 500px;
+    max-height: 450px;
     overflow: auto;
     font-family: "Dosis";
     margin-right: 8%;
